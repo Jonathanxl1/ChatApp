@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "602380581925",
+    "project_id": "chatapp-55127",
+    "storage_bucket": "chatapp-55127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602380581925:android:3b05ac3f7b5a8d1d0bd3cc",
+        "android_client_info": {
+          "package_name": "com.todosalau.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBTsIQR3fyJUL8E7v9Doji9_uM7rSGRRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
