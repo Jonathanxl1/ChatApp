@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
         android:text="@string/login_title_text"
+        android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:hint="@string/login_email_hint"
+        app:expandedHintEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
@@ -33,7 +35,7 @@
             android:id="@+id/emailEditTextLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="hint" />
+         />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -42,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:hint="@string/login_password_hint"
+        app:expandedHintEnabled="true"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
         tools:layout_editor_absoluteX="30dp">
 
@@ -49,7 +52,7 @@
             android:id="@+id/passwordEditTextLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="hint" />
+             />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -65,9 +68,11 @@
 
     <TextView
         android:id="@+id/registerText"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_register_text"
+        android:textColor="@color/secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
